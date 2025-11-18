@@ -10,8 +10,8 @@ int main() {
     int sum=0;
     while(n>0){
         lastdigit=n%10;
-        n=n/10;
         sum=sum+lastdigit;
+        n=n/10;
     }
 
     cout<<"sum of digits of given number is= "<<sum;
